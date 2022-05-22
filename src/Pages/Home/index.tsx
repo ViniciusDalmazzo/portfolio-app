@@ -11,8 +11,8 @@ function Home() {
         <h1>vinicius dalmazzo</h1>
         <h3>desenvolvedor full stack.</h3>
         <ContainerButtons>
-          <button><LinkedInIcon /><span>LinkedIn</span></button>
-          <button><GitHubIcon /><span>GitHub</span></button>
+          <button><LinkedInIcon />LinkedIn</button>
+          <button><GitHubIcon />GitHub</button>
         </ContainerButtons>
       </ContentInfos>
       <BackgroundImage image={HomeBackgroundImg} />

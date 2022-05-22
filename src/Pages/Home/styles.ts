@@ -44,20 +44,20 @@ margin-top: 50px;
 
 > button{
   text-align: center;
-  height: 40px;
-  padding: 1rem;
   font-size: 1rem;
   padding: .5rem 3rem;
   color: ${COLORS.white};
-  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
   border: solid 2px transparent;
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(269.96deg, #10D7E2 0%, #9358F7 100%);
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px ${COLORS.black} inset;
 
-  >svg {
+  > svg {
     background: transparent;
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
   }
   }
 
