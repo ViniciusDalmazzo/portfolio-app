@@ -9,7 +9,8 @@ export const Container = styled.div`
 `;
 
 export const ContainerProfileImage = styled.div`
-  flex: 25%;
+  height: 100%;
+  width: 400px;
   margin-right: 8vw;
   background-color: ${COLORS.dark};
   border-left: 4px solid ${COLORS.primary};

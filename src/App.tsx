@@ -6,7 +6,7 @@ import Home from "./Pages/Home";
 import { COLORS, GlobalStyles } from "./styles/GlobalStyles";
 
 function App() {
-  return (
+    return (
     <>
       <GlobalContainer color={COLORS.dark}>
         <Header />

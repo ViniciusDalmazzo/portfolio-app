@@ -4,7 +4,7 @@ import {ReactComponent as LogoFooterIcon} from '../../assets/Icons/iuricode-logo
 function Footer() {
   return (
     <Container>
-      <span>@ 2022 - Vinicius Camargo</span>
+      <span>@ 2022 - Vinicius Dalmazzo</span>
       <span>Powered by <LogoFooterIcon /></span>
     </Container>
   );

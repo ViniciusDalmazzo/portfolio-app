@@ -33,12 +33,14 @@ export const ContainerMenus = styled.div`
   > span {
     margin: 1rem;
     cursor: pointer;
-  }
 
-  > span:hover{
+    &:hover{
     opacity: 0.8;
     color: ${COLORS.primary};
   }
+  }
+
+  
 
   
 

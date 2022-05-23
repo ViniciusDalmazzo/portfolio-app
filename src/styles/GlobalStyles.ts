@@ -15,6 +15,7 @@ padding: 0;
 box-sizing: border-box;
 background-color: ${COLORS.dark};
 color: ${COLORS.light};
+scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, span, div, p {

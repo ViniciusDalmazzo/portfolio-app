@@ -67,11 +67,11 @@ margin-top: 50px;
   @media all and (max-width: 1080px) {
    width: 100%;
   }
-  }
 
-  > button:hover{
+  &:hover{
     box-shadow: none;
     color: white;
+    }
   }
 
   @media all and (max-width: 500px) {

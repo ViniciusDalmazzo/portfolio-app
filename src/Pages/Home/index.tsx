@@ -13,7 +13,7 @@ function Home() {
   }
 
   return (
-    <Container>
+    <Container id="home">
       <ContentInfos>
         <h3>olá, eu sou</h3>
         <h1>vinicius dalmazzo</h1>
