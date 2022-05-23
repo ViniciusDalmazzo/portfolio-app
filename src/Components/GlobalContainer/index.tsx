@@ -13,6 +13,10 @@ const Container = styled.div<{color: string}>`
 const Content = styled.div`
   padding-right: 10vw;
   padding-left: 10vw;
+
+  @media all and (max-width: 1080px) {
+   padding: 2vw;
+  }
 `
 
 function GlobalContainer({ children, color }: GlobalContainerProps) {

@@ -8,6 +8,12 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 2px solid ${COLORS.dark200};
+
+  
+
+  @media all and (max-width: 742px) {
+    justify-content: center;
+  }
 `;
 
 export const Logo = styled.div`
@@ -32,5 +38,11 @@ export const ContainerMenus = styled.div`
   > span:hover{
     opacity: 0.8;
     color: ${COLORS.primary};
+  }
+
+  
+
+  @media all and (max-width: 742px) {
+    display: none;
   }
 `;

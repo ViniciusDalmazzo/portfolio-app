@@ -58,12 +58,21 @@ margin-top: 50px;
     position: relative;
     top: 3px;
     margin-right: 10px;
+  }  
+
+  @media all and (max-width: 1080px) {
+   width: 100%;
   }
   }
 
   > button:hover{
     box-shadow: none;
     color: white;
+  }
+
+  @media all and (max-width: 500px) {
+   display: flex;
+   flex-direction: column;
   }
 `;
 
@@ -76,4 +85,8 @@ export const BackgroundImage = styled.div<{ image: string }>`
   background-image: url(${({ image }) => image});
   background-repeat: no-repeat;
   background-size: contain;
+
+  @media all and (max-width: 1080px) {
+   display: none;
+  }
 `;

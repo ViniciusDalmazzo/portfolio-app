@@ -13,6 +13,10 @@ export const ContainerProfileImage = styled.div`
   margin-right: 8vw;
   background-color: ${COLORS.dark};
   border-left: 4px solid ${COLORS.primary};
+
+  @media all and (max-width: 1080px) {
+   display: none;
+  }
 `;
 
 export const ContentInfos = styled.div`
@@ -38,6 +42,10 @@ export const ContentInfos = styled.div`
     font-size: 18px;
     line-height: 32px;
     color: ${COLORS.graylight};
+  }
+
+  @media all and (max-width: 1080px) {
+   gap: 5px;
   }
 
 `;
