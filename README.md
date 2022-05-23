@@ -1,8 +1,8 @@
-#_Portfolio Project_
+# _Portfolio Project_
 
-####_This is a site made by React_
+## _This is a site made by React_
 
-####_Vinicius Dalmazzo_
+## _Vinicius Dalmazzo_##
 
 ## Description
 
