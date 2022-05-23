@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/static/js/main.350e5509.js",
+    "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
+    "static/media/home-bg.png": "/static/media/home-bg.cd76e01dc13a3e9e9ecc.png",
+    "static/media/profile.png": "/static/media/profile.f132460282a6e51afd5e.png",
+    "static/media/iuricode-logo-icon.svg": "/static/media/iuricode-logo-icon.52513fa2fafdb5fc6e967c8c85f9526d.svg",
+    "static/media/download-icon.svg": "/static/media/download-icon.592f8225c60690da0fdceac23d997181.svg",
+    "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.ec9e6978d578db5f8222001d4f83a8ae.svg",
+    "index.html": "/index.html",
+    "main.350e5509.js.map": "/static/js/main.350e5509.js.map",
+    "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.350e5509.js"
+  ]
+}
