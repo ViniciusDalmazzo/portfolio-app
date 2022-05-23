@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 2px solid #151515;
+  border-bottom: 2px solid ${COLORS.dark200};
 `;
 
 export const Logo = styled.div`
