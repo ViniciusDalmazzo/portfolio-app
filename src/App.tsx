@@ -1,13 +1,24 @@
+import GlobalContainer from "./Components/GlobalContainer";
 import Header from "./Components/Header";
+import AboutMe from "./Pages/AboutMe";
 import Home from "./Pages/Home";
-import { GlobalStyles } from "./styles/GlobalStyles";
+import { COLORS, GlobalStyles } from "./styles/GlobalStyles";
 
 function App() {
   return (
     <>
-      <Header />
+      <GlobalContainer color={COLORS.dark}>
+        <Header />
+      </GlobalContainer>
 
-      <Home />
+
+      <GlobalContainer color={COLORS.dark}>
+        <Home />
+      </GlobalContainer>
+      <GlobalContainer color={COLORS.dark200}>
+        <AboutMe />
+      </GlobalContainer>
+
       <GlobalStyles />
     </>
   );

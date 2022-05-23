@@ -27,7 +27,7 @@ export const ContentInfos = styled.div`
   }
 
   > h3{
-    color: ${COLORS.white};
+    color: ${COLORS.light};
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
@@ -46,12 +46,12 @@ margin-top: 50px;
   text-align: center;
   font-size: 1rem;
   padding: .5rem 3rem;
-  color: ${COLORS.white};
+  color: ${COLORS.light};
   border: solid 2px transparent;
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(269.96deg, #10D7E2 0%, #9358F7 100%);
   background-origin: border-box;
   background-clip: content-box, border-box;
-  box-shadow: 2px 1000px 1px ${COLORS.black} inset;
+  box-shadow: 2px 1000px 1px ${COLORS.dark} inset;
 
   > svg {
     background: transparent;
@@ -69,7 +69,7 @@ margin-top: 50px;
 
 
 export const BackgroundImage = styled.div<{ image: string }>`
-  position: fixed;
+  position: absolute;
   right: 0;
   height: 95vh;
   width: 60vw;
