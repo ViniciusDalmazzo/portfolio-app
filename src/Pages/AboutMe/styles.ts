@@ -21,16 +21,23 @@ export const ContentInfos = styled.div`
   flex: 75%;
   gap: 40px;
 
-  h2 >{
+  > h2 {
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
   }
 
-  span > {
+  > span {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+  }
+
+  > p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: ${COLORS.graylight};
   }
 
 `;
@@ -41,11 +48,4 @@ export const ProfileImage = styled.div<{ image: string }>`
   background-image: url(${({ image }) => image});
   background-repeat: no-repeat;
   background-size: cover;
-`;
-
-export const ProfileDescription = styled.span`
-   font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    color: ${COLORS.graylight};
 `;

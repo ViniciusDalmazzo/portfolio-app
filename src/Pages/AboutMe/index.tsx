@@ -1,4 +1,4 @@
-import { Container, ContainerProfileImage, ContentInfos, ProfileDescription, ProfileImage } from './styles';
+import { Container, ContainerProfileImage, ContentInfos, ProfileImage } from './styles';
 import UserImage from '../../assets/Images/profile.png';
 
 function AboutMe() {
@@ -10,13 +10,11 @@ function AboutMe() {
       <ContentInfos>
         <h2>Sobre mim</h2>
         <span>Sorocaba, Brasil</span>
-        <ProfileDescription>
-          Desenvolvedor Full Stack na empresa
-          Neobpo utilizando a linguagem Angular e .NET Core. Estou em
-          busca de uma vaga em desenvolvimento WEB seja ela na parte de
-          back-end ou de front-end, estudo e participo de projetos
-          opensources para adquirir conhecimento e melhorar cada vez mais
-          minha capacidade técnica.</ProfileDescription>
+        <p>
+          Desenvolvedor Full Stack com mais de 5 anos de experiência sendo suas principais stacks C#, Angular e React Native. <br />
+          Sólidos conhecimentos em GIT, SQL Server, Métodologias ágeis, CI/CD, DDD, APIs, Java Script, Type Script e Microserviços. <br />
+          Sempre em busca de novos desafios e aprendizados.          
+        </p>
       </ContentInfos>
     </Container>
   );
