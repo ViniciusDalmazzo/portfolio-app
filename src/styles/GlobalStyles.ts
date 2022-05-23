@@ -33,4 +33,23 @@ h1, h2, h3, h4 {
 button, a {
   cursor: pointer;
 }
+
+// Custom scrollbar
+*::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px ${COLORS.dark200};
+	background-color: ${COLORS.light};
+}
+
+*::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: ${COLORS.light};
+}
+
+*::-webkit-scrollbar-thumb
+{
+	background-color: ${COLORS.dark};
+	border: 2px solid ${COLORS.dark200};
+}
 `
