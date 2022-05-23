@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer";
 import GlobalContainer from "./Components/GlobalContainer";
 import Header from "./Components/Header";
 import AboutMe from "./Pages/AboutMe";
@@ -17,6 +18,10 @@ function App() {
       </GlobalContainer>
       <GlobalContainer color={COLORS.dark200}>
         <AboutMe />
+      </GlobalContainer>
+
+      <GlobalContainer color={COLORS.dark}>
+      <Footer />
       </GlobalContainer>
 
       <GlobalStyles />
