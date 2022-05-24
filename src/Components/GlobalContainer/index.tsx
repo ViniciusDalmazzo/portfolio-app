@@ -14,8 +14,8 @@ const Content = styled.div`
   padding-right: 10vw;
   padding-left: 10vw;
 
-  @media all and (max-width: 1080px) {
-   padding: 2vw;
+  @media all and (max-width: 742px) {
+   padding: 1vw;
   }
 `
 

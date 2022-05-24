@@ -34,15 +34,11 @@ export const ContainerMenus = styled.div`
     margin: 1rem;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
     opacity: 0.8;
     color: ${COLORS.primary};
   }
   }
-
-  
-
-  
 
   @media all and (max-width: 742px) {
     display: none;

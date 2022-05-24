@@ -6,6 +6,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   padding: 7vh 0 7vh 0;
+
+  @media all and (max-width: 742px) {
+    height: auto;
+  }
 `;
 
 export const ContainerProfileImage = styled.div`

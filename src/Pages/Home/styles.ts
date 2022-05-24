@@ -8,7 +8,7 @@ export const Container = styled.div`
   flex-direction: row;
 
   @media all and (max-width: 500px) {
-  height: 90vh;
+  height: auto;
   }
 `;
 
